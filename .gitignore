@@ -33,4 +33,7 @@ build/
 .vscode/
 
 ### Data Files ###
+# Keep text data records in db/ (users/orders/payments etc.)
+!db/*.txt
+
 *.txt
