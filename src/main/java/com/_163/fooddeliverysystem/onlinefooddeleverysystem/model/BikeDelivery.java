@@ -1,6 +1,7 @@
 package com._163.fooddeliverysystem.onlinefooddeleverysystem.model;
 
 public class BikeDelivery extends Delivery {
+
     public BikeDelivery() {
         super();
     }
@@ -10,6 +11,6 @@ public class BikeDelivery extends Delivery {
     }
 
     public String deliveryMethod() {
-        return "Bike delivery - 30 mins typical";
+        return "Bike delivery (fast)";
     }
 }
